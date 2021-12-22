@@ -1,2 +1,3 @@
 # zer0
-zer0 - discord bot
+powerfull managment tool for your server
+  tnbx
