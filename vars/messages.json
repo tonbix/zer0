@@ -1,0 +1,17 @@
+{
+    "en": {
+        "system": {
+            "startup": "\n\"%s\" started up",
+            "lang": "Current language: %s\n",
+            "aboutServer": "Server name: \"%s\"\n ↳ ID %s"
+        }
+    },
+
+    "ru": {
+        "system": {
+            "startup": "\n\"%s\" запущен",
+            "lang": "Текущий язык: %s\n",
+            "aboutServer": "Имя сервера: \"%s\"\n ↳ ID %s"
+        }
+    }
+}
