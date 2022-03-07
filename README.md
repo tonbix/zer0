@@ -1,3 +1,3 @@
 # zer0
-powerful managment tool for your server </br>
+powerful management tool for your server </br>
 *tnbx*

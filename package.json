@@ -1,8 +1,8 @@
 {
   "name": "zer0",
   "version": "1.0.0",
-  "description": "powerfull managment tool for your server </br>\r *tnbx*",
-  "main": "index.js",
+  "description": "powerful management tool for your server </br>\r *tnbx*",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/tonbix/zer0.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,9 +18,7 @@
   },
   "homepage": "https://github.com/tonbix/zer0#readme",
   "dependencies": {
-    "discord.js": "^13.3.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.5.0"
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
   }
 }
