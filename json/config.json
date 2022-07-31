@@ -1,0 +1,19 @@
+{
+    "prefix": ".",
+    "defaultLanguage": "en",
+
+    "settings": {
+        "colors": {
+            "accent": "#e125aa"
+        },
+
+        "verification": {
+            "helloMessage": {
+                "channelId": "927010165977399327",
+                "id": "996582337947115630"
+            },
+
+            "onVerificationRoleId": "996676860148719616"
+        }
+    }
+}

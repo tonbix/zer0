@@ -1,0 +1,18 @@
+{
+    "onReady": {
+        "loggedAs": "Запущен как \"{}\"",
+        "loggedOn": "На серверах:",
+        "serverInfo": " \"{}\" // #{}",
+        "serversCount": "всего: {}"
+    },
+
+    "system": {
+        "channelFetchError": "Не удалось получить канал",
+
+        "givenRole": "Роль \"{}\" выдана \"{}\""
+    },
+
+    "verification": {
+        "verificationSuccessfully": "{} успешно верифицирован"
+    }
+}

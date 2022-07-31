@@ -1,0 +1,18 @@
+{
+    "onReady": {
+        "loggedAs": "Logged in as \"{}\"",
+        "loggedOn": "On servers:",
+        "serverInfo": " \"{}\" // #{}",
+        "serversCount": "total: {}"
+    },
+
+    "system": {
+        "channelFetchError": "Can't fetch channel",
+
+        "givenRole": "Role \"{}\" given to \"{}\""
+    },
+
+    "verification": {
+        "verificationSuccessfully": "{} successfully verified"
+    }
+}

@@ -9,5 +9,7 @@
     "cSpell.words": [
         "codepaths",
         "tsbuildinfo"
-    ]
+    ],
+    "cSpell.language": "en,ru,ru-RU",
+    "code-runner.customCommand": "start.bat"
 }
