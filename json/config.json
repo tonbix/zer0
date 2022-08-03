@@ -7,12 +7,14 @@
             "accent": "#e125aa"
         },
 
-        "verification": {
-            "helloMessage": {
-                "channelId": "927010165977399327",
-                "id": "996582337947115630"
-            },
+        "messages": {
+            "__comment": "format: messageId, channelId",
 
+            "helloMessage": ["996582337947115630", "927010165977399327"],
+            "rulesMessage": ["1000924646268485685", "927010057332334602"]
+        },
+
+        "roles": {
             "onVerificationRoleId": "996676860148719616"
         }
     }

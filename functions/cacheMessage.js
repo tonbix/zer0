@@ -1,4 +1,4 @@
-module.exports = (client, channelId, messageId) => {
+module.exports = (client, messageId, channelId) => {
     try{
         client.channels.cache.get(channelId).messages.fetch(messageId)
     }catch{

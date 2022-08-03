@@ -2,12 +2,16 @@ const cacheMessage = require("../functions/cacheMessage")
 const stringFormat = require("../functions/stringFormat")
 
 module.exports = (client, lang, cfg) => {
-    login(client, lang)
-    
-    cacheMessage(client, cfg.settings.verification.helloMessage.channelId, cfg.settings.verification.helloMessage.id)
+    let messages = [
+        [cfg.settings.messages.helloMessage[0], cfg.settings.messages.helloMessage[1]],
+        [cfg.settings.messages.rulesMessage[0], cfg.settings.messages.rulesMessage[1]]
+    ]
+
+    onLogin(client, lang)
+    cacheMessages(client, messages, cfg)
 }
 
-login = (client, lang) => {
+onLogin = (client, lang) => {
     console.log(stringFormat(lang.onReady.loggedAs, [ client.user?.tag ]))
     console.log(lang.onReady.loggedOn)
     let i = 0
@@ -16,4 +20,10 @@ login = (client, lang) => {
         i+=1
     })
     console.log(stringFormat(lang.onReady.serversCount, [ i ]))
+}
+
+cacheMessages = (client, messages, cfg) => {
+    messages.forEach(element => {
+        cacheMessage(client, element[0], element[1])
+    });
 }
